@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Location saisonnière</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <div class = "nav container">
+            <a href="aclocation.html" class="logo"><i class='bx bx-home'></i>AC Location's</a>
+
+            <input type = "checkbox" name ="" id="menu">
+            <label for="menu" <i class='bx bx-menu' id ="menu-icon"></i></label>
+
+            <ul class="navbar">
+                <li><a href = "index.html">Accueil</a></li>
+                <li><a href = "categories.html">Catégories</a></li>
+                <li><a href = "tendances.html">Tendances</a></li>
+                <li><a class = "active" href = "support.html">Support</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class ="form-detach">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class ="formulaire">
+      <div class="contact-form">
+        <h2>Formulaire de Contact pour réserver :</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f3895bcf-eed9-4f45-b0ff-d2d0664cd662">
+
+            <label for="nom">Nom et Prénom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="numéro">Numéro de téléphone :</label>
+            <input type="text" id="text" name="text" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <h4>Date d'arrivée :</h4>
+            <br>
+            <div class="date-container">
+                <label for="date-select">Choisissez une date !</label>
+                <input type="date" id="date-select" name="date-select">
+            </div>
+            <br>
+            <h4>Date de départ :</h4>
+            <br>
+            <div class="date-container">
+                <label for="date-select">Choisissez une date !</label>
+                <input type="date" id="date-select" name="date-select">
+            </div>
+            <br>
+
+            <label for="nom">Nombre de Personnes :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="location">Sélectionnez une Location :</label>
+            <select id="location" name="location" required>
+                <option value="">Sélectionner une Location</option>
+                <option value="Villa Le Palace">Villa Le Palace</option>
+                <option value="Villa EL Paulo">Villa EL Paulo</option>
+                <option value="Cabane Forest">Cabane Forest</option>
+                <option value="Cabane Mowgli">Cabane Mowgli</option>
+                <option value="Cabane Jeanne's">Cabane Jeanne's</option>
+                <option value="Chalet Luxueux">Chalet Luxueux</option>
+                <option value="Chalet Convivial ">Chalet Convivial </option>
+                <option value="Chalet jackie's">Chalet jackie's</option>
+                <option value="Maison Isolée">Maison Isolée</option>
+                <option value="Maison Paillards">Maison Paillards</option>
+                <option value="Maison Walkers">Maison Walkers</option>
+            </select>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</div>
+</section>
+<br>
+<br>
+<br>
+<section class="footer">
+    <div class="footer-container container">
+        <h2>AC Location's</h2>
+        <div class="footer-box">
+            <h3>Partenaires</h3>
+            <a href ="https://www.airbnb.fr/">Airbnb</a>
+            <a href ="https://www.leboncoin.fr">leboncoin</a>
+            <a href ="https://www.booking.com">Booking</a>
+        </div>
+        <div class="footer-box">
+            <h3>Liens utiles</h3>
+            <a href ="https://www.accuweather.com">Météo mondiale</a>
+            <a href ="https://24timezones.com">Décalage horaire</a>
+            <a href ="https://www.opodo.fr">Billet d'avion pas cher</a>
+        </div>
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <a href ="support.html">06 51 07 30 68</a>
+            <a href ="support.html">antho.cote69@gmail.com</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <br>
+        <br>
+        <br>
+        <p>&#169; 2024 Anthony Cote All Rights Reserved</p>
+    </div>
+</section>
+</body>
+</html>
