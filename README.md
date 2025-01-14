@@ -3,8 +3,6 @@ Dans le cadre de votre premier projet, vous êtes en charge individuellement de 
 Il est attendu à ce que vous conceviez un site web complet (HTML + CSS) en faisant attention a la fois à la qualité du code mais aussi au résultat visuel final.
 
 
-L'utilisation d'intelligence artificielle générative, de templates ou de bibliothèques d'HTML et CSS est strictement prohibé.
-
 2 - Features
 
 Dans le cadre du projet que vous allez réaliser il est nécessaire que vous puissiez présenter :
