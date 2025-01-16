@@ -1,34 +1,33 @@
-1 - Overview du projet
-Dans le cadre de votre premier projet, vous êtes en charge individuellement de réaliser la construction d'un site de location saisonnière (AirBnB, VRBO, Booking, etc.).  
-Il est attendu à ce que vous conceviez un site web complet (HTML + CSS) en faisant attention a la fois à la qualité du code mais aussi au résultat visuel final.
-
+1 - Project Overview
+As part of your first project, you are individually responsible for building a seasonal rental website (AirBnB, VRBO, Booking, etc.).
+You are expected to design a complete website (HTML + CSS) while paying attention to both the quality of the code and the final visual result.
 
 2 - Features
 
-Dans le cadre du projet que vous allez réaliser il est nécessaire que vous puissiez présenter :
+As part of the project that you are going to carry out, it is necessary that you can present:
 
-Une page d'accueil, comprenant :
-Une barre de navigation fonctionnelle
-Une section "Catégories" avec quelques catégories mises en avant (Par exemple : tendances, villes, évènements, type de biens, etc.)
-Quelques produits mis en avant
-Au moins 4 pages catégories distinctes, comprenant :
-Le nom de la catégorie
-Une grille de prévisualisation de produits comprenant :
-Une image du bien
-Le nom du bien
-Le prix par nuit/évènement du bien
-Chaque carte doit envoyer vers une page descriptive
-Au moins 8 pages descriptives distinctes, comprenant :
-Au moins 3 images du bien
-Le titre du bien
-Une description complète du bien
-Les caractéristiques du bien
-Une carte d'achat (Date d'arrivée, date de départ, prix par nuit/évènement, etc.)
-Une section "Biens recommandés"
-Une page Support, comprenant :
-Un formulaire de contact fonctionnel
-Le site doit être responsive pour Mobile, Tablettes et Desktop.
+A home page, including:
+A functional navigation bar
+A "Categories" section with a few highlighted categories (For example: trends, cities, events, type of property, etc.)
+A few highlighted products
+At least 4 separate category pages, including:
+The name of the category
+A product preview grid including:
+A picture of the property
+The name of the property
+The price per night/event of the property
+Each card must send to a descriptive page
+At least 8 separate descriptive pages, including:
+At least 3 pictures of the property
+The title of the property
+A complete description of the property
+The characteristics of the property
+A purchase card (Arrival date, departure date, price per night/event, etc.)
+A "Recommended properties" section
+A Support page, including:
+A functional contact form
+The site must be responsive for Mobile, Tablets and Desktop.
 
-Le site doit répondre aux critères d'accessibilités définis par le RGAA et abordés dans le cours.
+The site must meet the accessibility criteria defined by the RGAA and discussed in the course.
 
-Il ne doit pas y avoir de liens morts sur le site internet. Vous pouvez ajouter plus de pages catégories ou descriptives si vous le souhaitez ou relier d'éventuelles prévisualisations à des pages déjà existantes.
+There must be no dead links on the website. You can add more category or description pages if you wish or link any previews to existing pages.
